@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url('images/1974113.jpg');
+  }
+  
+  .form-register {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    border-top: 4px solid #460bd1e1;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #460bd1e1;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  button {
+    text-align: center;
+    margin-left: 100px;
+    border: 0;
+    background-image: linear-gradient(150deg, #9500FF, #09F, #00DDFF);
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+  }
+
+  button span {
+    background-color: #460bd1e1;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: .3s;
+  }
+
+  button:hover span {
+    background: none;
+  }
+
+  button:active{
+    transform: scale(0.9);
+  }
